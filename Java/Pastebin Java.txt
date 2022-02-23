@@ -1,0 +1,155 @@
+1. Za unet broj n, ispisati "Paran" ako je paran, a "Neparan" ako je neparan.
+2. Za unet broj n, ispisati "Pozitivan" ako je strogo veci od 0, "Negativan" ako je strogo manji od 0 ili "Neutralan" ako je tacno 0.
+3. Za unet pozitivan ceo broj n, ispisati sve brojeve od i zakljucno sa 0 do i zakljucno sa n.
+4. Za unet negativan ceo broj n, ispisati sve brojeve od i zakljucno sa n do i zakljucno sa 0.
+5. Za unet pozitivan ceo broj n, ispisati sve brojeve od i zakljucno sa -14 do i zakljucno sa 2n.
+6. Ispisati proizvod prvih n celih brojeva [1, n].
+7. Napraviti program koji za unet mesec i dan ispisuje odgovarajuci horoskopski znak.
+8. Korisnik unosi ime, prezime i godinu rodjena. Ispisati:
+	"Dobrodosao u {x}. razred, {ime} {prezime}",
+	pod pretpostavkom da je trenutna godina 2021. Pretpostavimo da ima 12 razreda. A ako korisnik nije djak ispisati jednu odgovarajucu 		 
+    poruku od:
+	"{ime} {prezime} je zavrsio skolu" ili "{ime} {prezime} tek treba da zapocne obrazovanje"
+9. Za unet ceo broj n, ispisati za svaki od brojeva [1, n] "Fizz" ako je deljiv sa 3, "Buzz" ako je deljiv sa 5, "Zazz" ako je deljiv sa 7 i sve ostale varijacije ("BuzzZazz" ako je deljiv i sa 5 i sa 7, ...)
+10. Za unet pozitivan ceo broj n, ispisati za svaki pozitivan ceo broj t, koji je strogo manji od njega (dakle t < n), sumu svih pozitivnih celih brojeva od 1 do tog broja (dakle 1 + 2 + 3 + ... + t). [Ovaj zadatak je dosta komplikovan!]
+11. Za unete brojeve a i b ispisati veci od njih.
+12. Za unete brojeve a, b i c ispisati najmanji od njih
+13. Ispisati tablicu mnozemnja jednocifrenih brojeva (dakle tabela 10x10, 0 u prvom polju, 81 u poslednjem polju)
+14. Napraviti digitron koji prima double, char, double, gde je char neki od simbola: {+, -, *, /, %, ^} i ispisuje resenje odgovarajuce operacije.
+15. Uneti pozitivan ceo broj n. Zatim izracunati sumu unetih narednih n brojeva (double). [Ovaj zadatak je dosta komplikovan!]
+16. Uneti pozitivan ceo broj n. Zatim izracunati proizvod unetih narednih n brojeva (double). [Ovaj zadatak je dosta komplikovan!]
+17. Uneti double konstante a, b, c, a zatim i pozitivan ceo broj n. Zatim se unose n double brojeva jedan po jedan. Cim se unese jedan od tih brojeva, na standardni izlaz (tj. konzola) ispisuje se resenje polinoma: a*x^2 + b*x + c. [Ovaj zadatak je dosta komplikovan!]
+18. Uneti pozitivan ceo broj n. Zatim ispisati najmanji i najveci broj od unetih narednih n brojeva (double). [Ovaj zadatak je dosta komplikovan!]
+19. Korisnik unosi ime i prezime (jedan String), ime predmeta (String) i prosecnu ocenu istog (double). Validni predmeti su:
+    {Srpski, Engleski, Matematika, Fizika, Hemija, Fizicko, Biologija, Istorija, Geografija}
+	Na standardni izlaz ispisati poruku:
+	"{ime i prezime} je {atribut} iz {kategorija predmeta}, jer je imao/la prosecnu ocenu {prsoecnu ocenu} iz predmeta {ime predmeta}",
+	gde je atribut:
+	1.) "veoma dobar/ra", ako je prosecna ocena iznad 3.5
+	2.) "dobar/ra", ako je prosecna ocena izmedju 2.5 i 3.5
+	3.) "veoma los/a", ako je prsoecna ocena ispod 2.5
+	kategorija predmeta:
+	1.) "prirodnih nauka" - Matematika, Fizika, Hemija
+	2.) "jezika" - Srpski, Engleski
+	3.) "opstih predmeta" - Biologoija, Istorija, Geografija
+	Dakle, za unos:
+	- "Ana Brankovic", "Biologija", 4.2
+	poruka bi izgledala:
+	"Ana Brankovic je veoma dobar/ra iz opstih predmeta, jer je imao/la prosecnu ocenu 4.2 iz predmeta Biologija"
+20. Korisnik unosi pozitivan ceo broj n, n >= 2 sa konzole. Zatim se unose imena korisnika. Ispisati "da" ako
+	su uneta dva korisnika sa istim imenom za redom (jedan za drugim), a "ne" inace.
+	Npr:
+	"Ana", "Marija", "Milica", "Milica", "Jelena", "Zorica" -> "da" (zbog "Milica", "Milica")
+	"Branko", "Aleksandar", "Marko" -> "ne"
+	"Tara", "Jana", "Tara", "Jana" -> "ne" (iako imamo duplikate nisu uneti za redom)
+21. Za unetu visinu h, iscrtati levu Mario kulu. Npr za h = 5:
+|#
+|##
+|###
+|####
+|#####
+(| obelezava pocetak reda i to ne crtate)
+
+22. Za unetu visinu h, iscrtati desnu Mario kulu. Npr za h = 5:
+|    #
+|   ##
+|  ###
+| ####
+|#####
+
+23. Za uneto m i n (intovi) iscrtati mxn sahovsku tablu, gde je beli polje oznaceno sa ' ' (space karakter),
+	a crno polje sa '.' (tacka). Uzeti da je gornje levo polje uvek crno. Npr za m = 3, n = 3:
+|. .|
+| . |
+|. .|
+
+24. Korisnik unosi vrednost za dva booleana p i q. Ispisati vrednost izrazraza ("True" ili "False"): Ako je p tacno, onda je i q tacno.
+25. Korisnik unosi novac na racunu koji raspolaze kao i cenu nekog artikla. Na standardni izlaz ispisati koliko kopija tog
+	artika korisnik moze da kupi.
+
+26. Omoguciti da korisnik unese n brojeva preko skenera i smestiti ih u niz. Ispisati taj niz u obrtnutom redosledu
+Primer: [4, 2, 3, 5] -> 5 3 2 4
+26* Napraviti funkciju koja ispisuje dat niz u obrnutom redosledu.
+
+27. Omoguciti da korisnik unese n brojeva preko skenera i smestiti ih u niz. Ispisati svaki drugi element tog niza
+Primer: [1, 2, 3, 4, 5] -> 1 3 5
+27* Napraviti funkciju koja ispisuje svaki drugi element zadatog niza.
+
+28. Omoguciti da korisnik unese n brojeva preko skenera i smestiti ih u niz. Izracunati sumu tog niza.
+Primer: [1, 2, 3, 4, 5] -> 15 (1 + 2 + 3 + 4 + 5 = 15)
+28* Napraviti funkciju koja vraca sumu prosledjenog niza.
+
+29. -//-. Ispisati svaki treci element u obrnutom redosledu.
+Primer: [1, 2, 3, 4, 5, 6, 7, 8] -> 8 5 2
+29* Napraviti funkciju koja ispisuje svaki treci element niza u obrnutom redosledu.
+
+30. -//-. Izracunati proizvod elemenata tog niza.
+Primer: [2, 4] -> 8
+30* Napisati funkciju koja racuna proizvod elemenata zadatog niza.
+
+31. Napisati funkciju koja racuna proizvod 3 broja.
+Hint kako citati ove zadatke:
+- ... racuna proizvod 3 broja = proseldjuje joj se 3 broja (imace 3 argumenta)
+- funkciju koja racuna = vraca odgovarajuci podatak (nece biti void nego nesto konkretno)
+
+32. Napisati funkciju koja ispisuje sve neparne brojeve zadatog niza. (Dakle, ova funkcija je void)
+
+33. Napisati funkciju koja ispisuje sve parne brojeve zadatog niza.
+
+34. Napisati funkciju koja vraca najveci element niza. (Prosledjujemo niz, vracamo broj)
+
+35. Napisati funkciju koja vraca najmanji element niza.
+
+36. Napisati funkciju koja duplira sve lemente niza, (Dakle prosledjujemo niz, vracamo niz)
+Primer: [1, 2, 3, 4, 5] -> [2, 4, 6, 8, 10]
+
+37. Napisati funkciju koja sabira 2 niza iste duzine element po element. (Dakle prosledjujemo 2 niza, a vracamo taj novi niz)
+Primer: [2, 4, 6] + [1, 4, 4]  -> [3, 8, 10]
+
+38. Napisati funkciju koja nadovezuje 2 niza, drugi na kraj prvog.
+Primer: [1, 2, 3] [17, 20, -3, 14, 20] -> [1, 2, 3, 17, 20, -3, 14, 20]
+
+39. Napisati funkciju koja vraca zbir drugog najmanjeg i drugog najveceg elementa niza.
+
+40. Napisati funkciju koja ispituje da li je suma niza veca od njegovog proizvoda. [Ovaj zadatak je bas tezak!]
+
+41. Napisati funkciju koja racuna prosecnu vrednost double[] niza.
+
+42. Napisati funkciju koja proverava da li u nizu niski imena postoji "Marija" ili "Petar".
+
+43. Napisati funkciju koja deli proslednjen niz na dva jednaka dela i onda ih sabira element po element. [Ovaj zadatak je bas tezak!]
+Npr: 
+[1, 2, 3, 4, 5, 6] -> [1, 2, 3] + [4, 5, 6] -> [5, 7, 9]
+[1, 2, 3, 4, 5] -> [1, 2, 3] + [3, 4, 5] -> [4, 6, 8]
+
+44. Napisati funkciju koja sabira dva niza proizvoljne duzine. [Ovaj zadatak je bas tezak!]
+Npr: [1, 2, 3, 4, 5] + [1, 2, 3] -> [2, 4, 6, 4, 5]
+44* -//- bez kreiranja dodatnih nizova
+
+45. Napisati funkciju koja kreira niz od brojeva koji korisnik unosi sa konzole sve dok ne unese 0. [Ovaj zadatak je bas tezak!]
+Npr: 1 2 3 3 4 5 0 -> [1, 2, 3, 4, 4, 5]
+
+46. Napisati fukciju koja prima ArrayListu integera i ispisuje sve njene elemente.
+
+47. Napisati funkciju koja prima ArrayListu integera i vraca ArrayListu ciji su elementi duplirani u odnosu na proslednjenju ArrayListu.
+
+48. Napisati funkciju koja proverava da li su dve double ArrayListe potpuno iste.
+
+49. Napisati funkciju koja vraca najveci element iz ArrayListe.
+
+50. Napisati funkciju koja vraca drugi najmanji element iz ArrayListe. (Pretpostaviti da ce prosledjena ArrayLista uvek da ima barem 3
+elemenata).
+
+51. Napisati funkciju koja trazi najveci element medju tri ArrayListe.
+
+52. Napisati funkciju koja prima dve ArrayListe i vraca listu dobijenu nadovezivanjem druge liste na prvu.
+
+53. Napisati funkciju koja vraca zbir svih elemenata iz ArrayListe.
+
+54. Napisati funkciju koja vraca proizvod svih elemenata uvecanih za 3 iz ArrayListe.
+
+55. Napisati funkciju koja vraca sve neparne brojeve iz ArrayListe.
+
+56. Napisati funkciju koja vraca prosecnu vrednost iz ArrayListe.
+
+57. Napisati funkciju koja vraca najduzi String iz ArrayListe Stringova (koristiti .length() funkciju).
